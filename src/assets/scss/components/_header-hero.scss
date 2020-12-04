@@ -11,7 +11,7 @@
 
     h1 {
       margin-block-end: 0;
-      @include header-bold;
+      @include font-bold;
     }
   }
 }

@@ -33,7 +33,7 @@
           list-style: none;
           a {
             color: $brand-darker;
-            @include font-body;
+            @include font-bold;
             text-transform: capitalize;
 
             &:hover {
@@ -95,6 +95,7 @@
 .overlay a {
   padding: 8px;
   text-decoration: none;
+  @include font-bold;
   font-size: rem-calc(26);
   color: $brand-darker;
   display: block;

@@ -43,7 +43,7 @@ $gutter: 20;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  @include header-bold;
+  @include font-bold;
   color: $white;
 
   p {
