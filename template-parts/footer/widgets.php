@@ -16,7 +16,7 @@
       <div class="o-row">
         <?php
           foreach ($columns as $i => $column) { ?>
-        <div class="o-row__column o-row__column--span-12 o-row__column--span-<?php echo $column ?>@small">
+        <div class="o-row__col o-row__col--span-12 o-row__col--span-<?php echo $column ?>@small">
           <?php if(is_active_sidebar( 'footer-sidebar-' . ($i + 1) )) {
                 dynamic_sidebar( 'footer-sidebar-' . ($i + 1) );
               } ?>

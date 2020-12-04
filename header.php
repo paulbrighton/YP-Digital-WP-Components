@@ -53,5 +53,13 @@
       </div>
     </div>
   </header>
+  <div class="c-component-nav o-container">
+    <?php if (has_nav_menu('components')) {
+      wp_nav_menu(array(
+        'theme_location' => 'components'
+      ));
+    }
+    ?>
+  </div>
 
   <main id="content" role="main">
