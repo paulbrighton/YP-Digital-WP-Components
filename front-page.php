@@ -1,6 +1,6 @@
 <?php get_header(); ?>
-<div class="o-container c-repsonsive-grid">
-  <h1>Responsive Grid</h1>
+<div class="o-container c-repsonsive-grid u-margin-top-50 u-margin-bottom-50">
+  <h1 class="c-page-header">Responsive Grid</h1>
   <div class="o-row">
     <div class="o-row__col o-row__col--span-12 span-12 o-grid__col">
       <p>Span-12</p>

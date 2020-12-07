@@ -3,7 +3,7 @@ $header-font-weight: $header-weight-normal !default;
 $header-font-style: normal !default;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
 $font-family-serif: "serif" !default;
-$header-color: inherit !default;
+$header-color: $brand !default;
 $header-lineheight: 1.2 !default;
 $header-margin-bottom: 1.875rem !default;
 $small-font-size: 80% !default;
