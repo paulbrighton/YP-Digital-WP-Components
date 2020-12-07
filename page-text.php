@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50 u-margin-bottom-50">
   <div class="o-row">
-    <h1 class="c-page-header">Typography & Gutenberg Blocks</h1>
+    <h1 data-aos="fade-in" class="c-page-header">Typography & Gutenberg Blocks</h1>
   </div>
   <div class="o-row">
-    <div class="o-row__col o-row__col--span-12 o-row__col--span-6@medium">
+    <div class="o-row__col o-row__col--span-12 o-row__col--span-6@medium animatedParent">
       <div class="c-text-type">
         <h1>H1: <span><h1 class="span-header">The quick brown fox jumps over the lazy dog</h1></span></h1>
       </div>
@@ -27,7 +27,7 @@
         <h3>Paragraph: </h3>
         <p>Varius molestias quaerat veniam est similique ducimus cupidatat laudantium conubia sociosqu nisi. Numquam praesentium, euismod elit, vel montes iusto laudantium excepturi phasellus et numquam. Aspernatur adipiscing dolor ab tortor facilis facilis ipsam? Consectetuer, magna hymenaeos hendrerit! Rutrum nesciunt nesciunt, nec? Aliquip dis duis nesciunt lobortis, nullam quidem nostra id beatae.</p>
       </div>
-      <div class="c-text-type">
+      <div class="c-text-type animated">
         <h3>Bold: </h3>
         <p><strong>Varius molestias quaerat veniam.</strong></p>
       </div>

@@ -61,8 +61,8 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
 // Contact Components
 @import './components/contact/contact-form-7.scss';
 
-// @import '../../../../yp-digital-fw//node_modules/animate.css/animate.css';
-@import './animate/animate.scss';
+// Animate on Scroll
+@import './animate/aos';
 
 .span-header {
   color: $black !important;
