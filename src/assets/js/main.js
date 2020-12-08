@@ -3,6 +3,7 @@ import './components/navigation/hamburger-nav'
 import './components/navigation/navigation'
 import 'slick-carousel'
 import './components/animate'
+import './components/accordion'
 // import webpackStream from 'webpack-stream'
 
 $(document).ready(() => {

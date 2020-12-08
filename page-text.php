@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50 u-margin-bottom-50">
   <div class="o-row">
-    <h1 data-aos="fade-in" class="c-page-header">Typography & Gutenberg Blocks</h1>
+    <h1 data-aos="fade-right" class="c-page-header">Typography & Gutenberg Blocks</h1>
   </div>
   <div class="o-row">
     <div class="o-row__col o-row__col--span-12 o-row__col--span-6@medium animatedParent">
