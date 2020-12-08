@@ -12,7 +12,7 @@
   <header role="banner" class="c-header__main">
     <div class="c-header o-container u-flex u-align-justify u-align-middle">
 
-      <div class="c-header__logo o-row__col o-row__col--span-5">
+      <div class="c-header__logo o-row__col o-row__col--span-12">
         <?php if (has_custom_logo()) {
           the_custom_logo();
         } else { ?>
@@ -20,7 +20,7 @@
         <?php } ?>
       </div>
 
-      <div class="c-header__nav o-row__col o-row__col--span-7">
+      <!-- <div class="c-header__nav o-row__col o-row__col--span-7">
 
         <div class="c-header__nav--mobile">
           <a class="openbtn"><i class="fas fa-bars"></i></a>
@@ -50,7 +50,7 @@
           ?>
         </div>
 
-      </div>
+      </div> -->
     </div>
   </header>
   <div class="c-component-nav o-container">
@@ -61,5 +61,7 @@
     }
     ?>
   </div>
+
+  <div class="header__divider"></div>
 
   <main id="content" role="main">

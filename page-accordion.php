@@ -1,12 +1,13 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50 u-margin-bottom-50">
+  <h1>Accordion</h1>
   <div class="o-row">
     <div class="o-row__col o-row__col--span-12">
       <div class="c-accordion">
         <ul>
           <li>
             <a class="c-accordion--expand">
-              <div class="c-accordion__btn">+</div>
+              <div class="c-accordion__btn"><span><i class="fas fa-angle-double-down fa-xs"></i></span></div>
               <div>
                 <h2 class="c-accordion__header">Header 1</h2>
               </div>
@@ -17,7 +18,7 @@
           </li>
           <li>
             <a class="c-accordion--expand">
-              <div class="c-accordion__btn">+</div>
+              <div class="c-accordion__btn"><span><i class="fas fa-angle-double-down fa-xs"></i></span></div>
               <h2 class="c-accordion__header">Header 2</h2>
             </a>
             <div class="c-accordion__body">
@@ -26,7 +27,7 @@
           </li>
           <li>
             <a class="c-accordion--expand">
-              <div class="c-accordion__btn">+</div>
+              <div class="c-accordion__btn"><span><i class="fas fa-angle-double-down fa-xs"></i></span></div>
               <h2 class="c-accordion__header">Header 3</h2>
             </a>
             <div class="c-accordion__body">

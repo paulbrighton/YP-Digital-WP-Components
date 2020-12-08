@@ -1,0 +1,76 @@
+.c-animate {
+  padding: 75px 0;
+  @media (max-width: 959px) {
+    padding: 50px 0 70px;
+  }
+  align-items: center;
+  @include font-bold;
+  &__text {
+    margin-bottom: 35px;
+
+    @media (min-width: 768px) and (max-width: 959px) {
+      text-align: center;
+    }
+    p {
+      font-size: 1.125rem;
+      padding-right: 20px;
+      hyphens: none;
+      @media (min-width: 768px) and (max-width: 959px) {
+        padding: 0 20px;
+      }
+      @media (max-width: 767px) {
+        padding: 0;
+      }
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 1.5rem;
+      color: $dark-grey;
+      margin-bottom: 0;
+      @media (max-width: 959px) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
+
+.c-animate-reverse {
+  padding: 75px 0;
+  @media (max-width: 959px) {
+    padding: 50px 0 70px;
+  }
+  align-items: center;
+  @include font-bold;
+  &__text {
+    margin-bottom: 35px;
+
+    @media (min-width: 768px) and (max-width: 959px) {
+      text-align: center;
+    }
+    p {
+      font-size: 1.125rem;
+      padding-left: 20px;
+      hyphens: none;
+      @media (min-width: 768px) and (max-width: 959px) {
+        padding: 0 20px;
+      }
+      @media (max-width: 767px) {
+        padding: 0;
+      }
+    }
+    h2 {
+      margin-bottom: 0;
+    }
+    h3 {
+      font-size: 1.5rem;
+      color: $dark-grey;
+      text-align: left;
+      margin-bottom: 0;
+      @media (max-width: 959px) {
+        font-size: 1.25rem;
+      }
+    }
+  }
+}
