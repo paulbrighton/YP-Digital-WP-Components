@@ -40,7 +40,6 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
 // Header Components
 @import './components/header';
 @import './components/header-nav';
-@import './components/header-hero';
 
 
 // Footer Components
@@ -71,6 +70,10 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
 // Contact Forms
 @import './components/contact/contact-form';
 
+// Hero
+@import './hero/hero-nav-overlay';
+@import './hero/hero-text-overlay';
+
 .span-header {
   color: $black !important;
 }
@@ -80,4 +83,14 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
   padding-bottom: 10px;
   margin-bottom: 75px;
   border-bottom: 1px solid $brand;
+}
+
+.c-header__title {
+  text-align: center;
+  border-bottom: 1px solid $brand-lighter;
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    padding: 20px 0;
+  }
 }
