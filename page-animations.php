@@ -56,11 +56,11 @@
   </div>
 
   <div class="o-row u-flex-direction-row-reverse c-animate-reverse">
-    <div data-aos="zoom-in-left" class="c-animate__text o-row__col o-row__col--span-12 u-flex u-flex-direction-column u-justify-center u-align-middle o-row__col--span-6@medium">
+    <div data-aos="zoom-in-left" data-aos-duration="1000" class="c-animate__text o-row__col o-row__col--span-12 u-flex u-flex-direction-column u-justify-center u-align-middle o-row__col--span-6@medium">
       <h2><?php the_field('animation_title') ?></h2>
       <h3><?php the_field('animation_sub_title_4') ?></h3>
     </div>
-    <div data-aos="zoom-in-right" class="o-row__col o-row__col--span-12 o-row__col--span-6@medium">
+    <div data-aos="zoom-in-right" data-aos-duration="1000" class="o-row__col o-row__col--span-12 o-row__col--span-6@medium">
       <div class="c-animate__image">
         <?php
         $image = get_field('animation_image');
