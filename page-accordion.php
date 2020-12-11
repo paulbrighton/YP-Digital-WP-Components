@@ -1,6 +1,11 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50 u-margin-bottom-50">
-  <h1>Accordion</h1>
+  <div class="o-row">
+    <div class="o-row__col o-row__col--span-12">
+      <h1 class="c-page-header">Accordion</h1>
+    </div>
+  </div>
+
   <div class="o-row">
     <div class="o-row__col o-row__col--span-12">
       <div class="c-accordion">

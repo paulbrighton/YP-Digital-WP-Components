@@ -74,6 +74,9 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
 @import './hero/hero-nav-overlay';
 @import './hero/hero-text-overlay';
 
+// Page Layouts
+@import './components/page-layouts/page-layouts';
+
 .span-header {
   color: $black !important;
 }
@@ -81,7 +84,7 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
 .c-page-header {
   width: 100%;
   padding-bottom: 10px;
-  margin-bottom: 75px;
+  margin-bottom: 35px;
   border-bottom: 1px solid $brand;
 }
 
@@ -91,6 +94,10 @@ $fa-font-path: '../../../node_modules/@fortawesome/fontawesome-free/webfonts';
   h1 {
     margin: 0;
     font-size: 2rem;
-    padding: 20px 0;
+    padding: 20px 10px;
   }
+}
+
+.c-full-width-text-img__header {
+  padding-left: 20px;
 }

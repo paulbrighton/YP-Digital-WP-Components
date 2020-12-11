@@ -8,6 +8,7 @@
 </head>
 
 <body <?php body_class(); ?>>
+  <div id="wptime-plugin-preloader"></div>
   <?php wp_body_open(); ?>
   <header role="banner" class="c-header__title">
     <h1>YP Digital FW Components</h1>

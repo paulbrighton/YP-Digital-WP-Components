@@ -1,11 +1,19 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50">
-  <h1>Hero Headers</h1>
+  <div class="o-row">
+    <div class="o-row__col o-row__col--span-12">
+      <h1 class="c-page-header">Hero Headers</h1>
+    </div>
+  </div>
 </div>
 
 <div class="hero-with-nav-overlay">
   <div class="o-container">
-    <h2>Hero with Logo and Nav Overlay</h2>
+    <div class="o-row">
+      <div class="o-row__col o-row__col--span-12">
+        <h2>Hero with Logo and Nav Overlay</h2>
+      </div>
+    </div>
   </div>
   <?php if (wp_is_mobile()) : ?>
     <div style="background: url('<?php the_field('home_hero_mobile'); ?>') center center; background-size: cover; background-repeat: no-repeat;" class="c-header__hero">
@@ -68,8 +76,12 @@
 </div>
 
 
-<div class="o-container u-margin-bottom-50">
-  <h2>Hero with Text Overlay</h2>
+<div class="o-container">
+  <div class="o-row">
+    <div class="o-row__col o-row__col--span-12">
+      <h2>Hero with Text Overlay</h2>
+    </div>
+  </div>
 </div>
 <div class="c-hero-with-text">
   <div style="background: url('<?php the_field('hero_text_overlay_img'); ?>') center center; background-size: cover; background-repeat: no-repeat;" class="c-hero-with-text__image">

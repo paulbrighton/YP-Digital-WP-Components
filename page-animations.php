@@ -1,6 +1,10 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50 u-margin-bottom-50">
-  <h1>Animate on Scroll with AOS</h1>
+  <div class="o-row">
+    <div class="o-row__col o-row__col--span-12">
+      <h1 class="c-page-header">Animate on Scroll with AOS</h1>
+    </div>
+  </div>
   <div class="o-row c-animate">
     <div data-aos="fade-right" class="c-animate__text o-row__col o-row__col--span-12 u-flex u-flex-direction-column u-justify-center u-align-middle o-row__col--span-6@medium">
       <h2><?php the_field('animation_title') ?></h2>
