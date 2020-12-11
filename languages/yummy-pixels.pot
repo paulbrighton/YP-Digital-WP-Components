@@ -508,6 +508,10 @@ msgid "Primary Menu"
 msgstr ""
 
 #: lib/navigation.php:6
+msgid "Component Menu"
+msgstr ""
+
+#: lib/navigation.php:7
 msgid "Footer Menu"
 msgstr ""
 

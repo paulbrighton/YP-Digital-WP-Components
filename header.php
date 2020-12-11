@@ -23,5 +23,8 @@
   </div>
 
   <div class="header__divider"></div>
+  <div class="o-container u-margin-top-20">
+  <p class="c-info-description">A collection of reusable components to be used in YP Digital projects. The code can be viewed on <a href="">GitHub</a>.</p>
+  </div>
 
   <main id="content" role="main">

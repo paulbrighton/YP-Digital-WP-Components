@@ -1,9 +1,10 @@
 import $ from 'jquery'
 import './components/navigation/hamburger-nav'
 import './components/navigation/navigation'
-import 'slick-carousel'
+// import 'slick-carousel'
 import './components/animate'
 import './components/accordion'
+import './components/slider'
 // import webpackStream from 'webpack-stream'
 
 $(document).ready(() => {
