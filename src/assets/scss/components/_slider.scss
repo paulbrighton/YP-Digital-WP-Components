@@ -48,6 +48,10 @@
   .slick-prev-inside, .slick-next-inside {
     font-size: 1.25rem;
     color: $white;
+    
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
     &:hover {
       color: $brand-darker;
     }
@@ -59,10 +63,12 @@
   .slick-next-inside {
     margin-left: -20px;
     z-index: 1;
+    width: auto; height: auto;
   }
   .slick-prev-inside {
     margin-right: -20px;
     z-index: 1;
+    // width: auto; height: auto;
   }
 }
 
@@ -76,7 +82,10 @@
   .slick-next, .slick-prev {
     font-size: 1.25rem;
     color: $brand;
-    margin: 0 10px;
+    margin: 0 10px;    
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
     &:focus {
       outline: none;
       color: $brand-darker;
