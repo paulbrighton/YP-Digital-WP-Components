@@ -24,7 +24,9 @@
 
   <div class="header__divider"></div>
   <div class="o-container u-margin-top-20">
-  <p class="c-info-description">A collection of reusable components with minimal styling to be used in YP Digital projects. The code can be viewed on <a href="https://github.com/paulbrighton/YP-Digital-WP-Components">GitHub</a>.</p>
+    <div class="o-row">
+      <p class="c-info-description">A collection of reusable components with minimal styling to be used in YP Digital projects. The code can be viewed on <a href="https://github.com/paulbrighton/YP-Digital-WP-Components">GitHub</a>.</p>
+    </div>
   </div>
 
   <main id="content" role="main">

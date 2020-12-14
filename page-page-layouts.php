@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <div class="o-container u-margin-top-50 u-margin-bottom-50">
   <div class="o-row">
-    <div class="o-row__col o-row__col--span-12">
+    <div id="page-header" class="o-row__col o-row__col--span-12">
       <h1 class="c-page-header">Page Layouts</h1>
     </div>
   </div>

@@ -3,7 +3,7 @@
 <div class="c-contact-form">
   <div class="o-container">
     <div class="o-row">
-      <div class="o-row__col o-row__col--span-12">
+      <div id="page-header" class="o-row__col o-row__col--span-12">
         <h1 class="c-page-header">Contact Forms</h1>
         <h2>Contact Form 1</h2>
         <p class="c-contact-form-subtitle">Three column for name, email and subject.</p>
